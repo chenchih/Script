@@ -1,5 +1,4 @@
-
-echo -n "Enter port No:"
+#testing echo -n "Enter port No:"
 read port
 echo -n "Enter U or T [U for udp, t for TCP]:"
 read protocol
@@ -60,6 +59,6 @@ client
 elif [ "$choice" == "Q" || "q" ]; then
 break
 			
-echo "Exit:"
+echo "========Exit================"
 	
 fi
