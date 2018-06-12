@@ -30,7 +30,27 @@ Example: data.txt contain "12345678911"->used hex and plus 1 (12345678911 +1)=12
 
 (MulTIPLY LINE)
 File name: 3 Read text file and print file_mult_line.py
+Description:Read file from text file used HEX format, will print L if more than 10 digit.
+Example: 12345678911 ==> chaged to  12345678911L
 
+File name: 3-1 Read hex text file and print file_1_mult_line.py
+Description:Read file from text file and add 1  used HEX format, fix previous issue
+Example: 12345678911 ==> chaged to  12345678912
+
+File name: 4. read_file_and write_new_file.py
+Description: Generate new file which record old content and new content
+Example: 
+(old file)Data.txt ==>12345678911
+(new file)data_out.txt:
+old file 	 new file 
+12345678911                  0x2dfdc1c3fL
+
+File name:5.MAC+1_Add_hex_print_[Final].py
+Description: Fix format for prvious one
+Example will print like this 
+old file        new file 
+===========     =========== 
+12345678911     12345678912
 
 
 Conclusion: 
